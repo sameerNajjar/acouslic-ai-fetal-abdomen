@@ -280,7 +280,7 @@ python -m part1_frame_classification.scripts.evaluate_hier \
 
 | network       | Loss        | Mean WFSS   | Optimal Hit Rate   |
 |---------------|-------------|-------------|--------------------|
-| EfficientNet  | CE_WFSS     |    0.626    |        0.6056      |
+| EfficientNet  | CE_WFSS     |    0.6292   |        0.6065      |
 | ConvNeXt      | CE_WFSS     |    0.6795   |        0.6592      |
 | DenseNet121   | CE_WFSS     |    0.6754   |        0.6694      |
 | ResNet50      | CE_WFSS     |    0.5965   |        0.5265      |
@@ -289,8 +289,8 @@ python -m part1_frame_classification.scripts.evaluate_hier \
 |---------------|-------------|-------------|--------------------|
 | ConvNeXt      | CE          |    0.6344   |        0.6056      |
 | ConvNeXt      | focal       |    0.7562   |        0.8375      |
-| ConvNeXt      | CE_WFSS     |    0.6667   |        0.8310      |
-| ConvNeXt      | focal_WFSS  |    0.7112   |        0.8296      |
+| ConvNeXt      | CE_WFSS     |    0.6795   |        0.6592      |
+| ConvNeXt      | focal_WFSS  |    0.7112   |        0.8407      |
 
 ### Hierarchical Model
 
